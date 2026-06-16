@@ -31,8 +31,6 @@ names:
   12: Marigold
   13: shankupushpam
   14: spider_lily
-  
-
 
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco8.zip
