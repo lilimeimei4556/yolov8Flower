@@ -4,14 +4,10 @@ img_dir = r"datasets/flower/images/train"
 lab_dir = r"datasets/flower/labels/train"
 
 # 图片名（不带后缀）
-imgs = [os.path.splitext(f)[0]
-        for f in os.listdir(img_dir)
-        if f.endswith(('jpg','jpeg','png'))]
+imgs = [os.path.splitext(f)[0] for f in os.listdir(img_dir) if f.endswith(("jpg", "jpeg", "png"))]
 
 # 标注名（不带后缀）
-labs = [os.path.splitext(f)[0]
-        for f in os.listdir(lab_dir)
-        if f.endswith('txt')]
+labs = [os.path.splitext(f)[0] for f in os.listdir(lab_dir) if f.endswith("txt")]
 
 imgs = set(imgs)
 labs = set(labs)
