@@ -9,7 +9,7 @@ test_metrics = model.val(
     imgsz=640,
     batch=2,
     device="cpu",
-    split="test"    # 关键：使用测试集！
+    split="test",  # 关键：使用测试集！
 )
 
 # 输出最终测试结果
